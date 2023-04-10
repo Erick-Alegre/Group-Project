@@ -83,7 +83,7 @@ int main(){
 		}
 		system("cls");
 	} while(band);
-	//PETICI”N DE VALORES
+	//PETICI√ìN DE VALORES
 	if(var1==true){
 	cout<<"Prestamo: "<<endl;
 	cin>>P;}
@@ -101,7 +101,7 @@ int main(){
 	cin>>S;}
 	//Nota: Tasa de interes en porcentaje 
 	j = j/100;
-	//OPERACIONES MATEM¡TICAS
+	//C√ÅLCULOS MATEM√ÅTICOS
 	while(i<=1){
 		if(var1==false){
 			if(var2==true && (var3==true && var4==true)){
@@ -177,5 +177,3 @@ int main(){
 	system("PAUSE");
 	return 0;
 }
-//NOTA: AÒadir algoritmo para definir unidades de tasa de interes y tiempo
-//
