@@ -1,4 +1,3 @@
-//Validez de datos ingresados PENDIENTE
 #include<iostream>
 #include<stdlib.h>
 #include<windows.h>
@@ -143,7 +142,7 @@ int main(){
 			cout<<"1.Dias"<<endl;
 			cout<<"2.Semanas"<<endl;
 			cout<<"3.Meses"<<endl;
-			cout<<"4.Años"<<endl;
+			cout<<"4.AÃ±os"<<endl;
 			cin>>unidad_Tiempo1;
 			if(unidad_Tiempo1>0 && unidad_Tiempo1<=4){
 				switch(unidad_Tiempo1){
@@ -157,7 +156,7 @@ int main(){
 						per_tiempo = "Meses";
 						break;
 					case 4:
-						per_tiempo = "Años";
+						per_tiempo = "AÃ±os";
 						break;
 				}
 				band3=false;
@@ -174,9 +173,9 @@ int main(){
 		if(verif_n==false){
 			cout<<"Tiempo invalido"<<endl;}
 		if(verif_I==false){
-			cout<<"Interés simple invalido"<<endl;}
+			cout<<"InterÃ©s simple invalido"<<endl;}
 		if(verif_S==false){
-			cout<<"Devolución invalida"<<endl;}
+			cout<<"DevoluciÃ³n invalida"<<endl;}
 		if(var1==true){
 			cout<<"Prestamo: "<<endl;
 			cin>>P;
@@ -285,7 +284,7 @@ int main(){
 				break;
 			case 0:
 				if(unidad_Interes1==1){
-					per_tiempo = "días";}
+					per_tiempo = "dÃ­as";}
 				if(unidad_Interes1==2){
 					per_tiempo = "semanas";}
 				if(unidad_Interes1==3){
@@ -308,7 +307,7 @@ int main(){
 					per_interes = "Mensual";
 					per_tiempo = "meses";}
 				if(unidad_Interes1==8){
-					per_tiempo = "años";}
+					per_tiempo = "aÃ±os";}
 				break;
 		}
 	}
